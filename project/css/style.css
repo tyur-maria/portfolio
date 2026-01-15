@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .body {
     font-family: "Inter", sans-serif;
 }
@@ -127,7 +130,7 @@ font-size: 12px;
 line-height: 150%;
 color: #211b12;
 text-decoration: none;
-border: 1px solid var(--brand-500);
+border: 1px solid #dd9c3c;
 border-radius: 4px;
 background: #fff;
 margin-right: 4px;
@@ -157,4 +160,118 @@ margin-right: 25px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+.developer{
+    display: flex;
+    align-items: center;
+    padding: 80px 0 20px;
+
+}
+.developer-photo{
+    width: 360px;
+    height: 440px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.developer-about{
+margin-left: 55px;
+
+}
+.developer-hello{
+font-weight: 400;
+font-size: 24px;
+line-height: 135%;
+letter-spacing: -0.02em;
+color: #211b12;
+}
+.developer-title{
+font-weight: 700;
+font-size: 32px;
+line-height: 125%;
+letter-spacing: -0.03em;
+color: #bf7506;
+margin-top: 4px;
+margin-bottom: 16px;
+}
+.developer-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #211b12;
+}
+.motto{
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #dd9c3c;
+margin: 16px 0;
+}
+.developer-sign{
+max-width: 200px;
+}
+.skills{
+    padding: 20px 0;
+}
+.skills-title{
+    font-weight: 700;
+font-size: 24px;
+line-height: 135%;
+letter-spacing: -0.02em;
+color: #211b12;
+}
+.feedback{
+    padding: 80px 0 160px;
+}
+.input-group{
+    position: relative;
+    margin-bottom: 24px;
+}
+.input-label{
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #83807c;
+padding: 0 8px;
+background: #fff;
+position: absolute;
+top: 0;
+left: 16px;
+
+}
+.input{
+    border: 3px solid #e0dedc;
+border-radius: 4px;
+width: 435px;
+height: 56px;
+}
+.input-group{
+    padding-top: 9px;
+}
+.textarea {
+    min-height: 140px;
+}
+.form-container{
+    max-width: 435px;
+    margin: auto;
+
+}
+.submit-button{
+    display: flex; 
+    align-items: center;
+    padding: 7px 8px;
+
+    text-decoration: none;
+    font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #211b12;
+border: none;
+border-bottom: 2px solid #bf7506;
+background-color: #fff;
+cursor: pointer;
+}
+.button-group{
+    display: flex;
+    justify-content: flex-end;
 }
